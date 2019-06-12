@@ -246,3 +246,57 @@ header {
     width: 265px;
     height: 150px;
     margin-left: 30px; }
+
+.top-back {
+  background-image: url(../img/top-back.jpg);
+  min-height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .top-back .top-bach_inner {
+    background-color: rgba(0, 0, 0, 0.8);
+    min-height: 450px; }
+
+.specials_content {
+  margin-top: -350px; }
+  .specials_content .specials_title {
+    text-align: center;
+    font-family: "Noto Serif", serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 28px; }
+
+.slider_item {
+  max-width: 570px; }
+  .slider_item img {
+    width: 570px;
+    height: 420px; }
+  .slider_item .discription-box {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px; }
+    .slider_item .discription-box .white_box {
+      background-color: white;
+      -webkit-box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.09);
+      box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.09);
+      position: absolute;
+      left: 400px;
+      top: 1441px;
+      width: 569px;
+      height: 730px;
+      z-index: 203; }
+    .slider_item .discription-box .food_name {
+      font-family: "Noto Serif", serif;
+      color: #000;
+      font-size: 26px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 25px; }
+    .slider_item .discription-box .food_text {
+      font-family: "Rubik", sans-serif;
+      font-size: 15px;
+      color: #4c5659;
+      line-height: 22px;
+      text-align: center;
+      margin-bottom: 60px; }

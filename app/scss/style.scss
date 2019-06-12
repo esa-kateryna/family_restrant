@@ -248,3 +248,55 @@ header{
         margin-left: 30px;
     }
 }
+.top-back{
+    background-image: url(../img/top-back.jpg);
+    min-height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .top-bach_inner{
+        background-color: rgba(0, 0, 0, .8);
+        min-height: 450px; 
+    }
+}
+.specials_content{
+    margin-top: -350px;
+    .specials_title{
+    text-align: center;
+    font-family: $font-title;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 28px;
+    }
+}
+.slider_item{
+    max-width: 570px;
+    img{
+        width: 570px;
+        height: 420px;
+    }
+    .discription-box{
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.09);
+        }
+        .food_name{
+            font-family: $font-title;
+            color: #000;
+            font-size: 26px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .food_text{
+            font-family: $font-text;
+            font-size: 15px;
+            color: $colorbg;
+            line-height: 22px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+    }
+}
