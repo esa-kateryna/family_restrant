@@ -15,9 +15,9 @@ a{
 }
 header{
     min-height: 87px;
- .container{
-    display: flex;
-    justify-content: space-between;
+    .container{
+        display: flex;
+        justify-content: space-between;
     }
 }
 .header_logo{
@@ -34,9 +34,10 @@ header{
             a{
                 color: #2c465a;
                 font-family: $font-text;
-                font-size: 18px;
+                font-size: 15px;
                 line-height: 40px;
                 margin-right: 30px;
+                text-transform: uppercase;
             }
         }
     }  
@@ -76,14 +77,16 @@ header{
     outline: none;
     border: double #fff;
     border-radius: 6px;
-    padding-left: 25px;
+    padding-left: 20px;
     padding-right: 20px;
     img{
         margin-right: 15px;
     }
     a{
     color: #fff;
-    line-height: 60px;
+    font-family: $font-text;
+    font-size: 16px;
+    line-height: 40px;
     }
 }
 .main{
@@ -114,16 +117,134 @@ header{
             display: inline-block;
             width: 205px;
             height: 246px;
-            margin-top: -163px;  
+            margin-top: -163px;
+            position: relative;
+            
+            .explore_text{
+                max-width: 130px;
+                position: absolute;
+                top: 110px;
+                left: 37px;
+                color: #fff;
+                font-family: $font-title;
+                font-size: 16px;
+                font-weight: 700;
+                text-align: center;
+            }  
         }
     }
+    .underline_right_part{
+        display: flex;
+        justify-content: space-between;
+    }
     .review{
+        width: 220px;
+        padding-top: 33px;
+        margin-right: 40px;
+        display: flex;
+        align-items: center;
+        img{
+            width: 45px;
+            height: 45px;
+            padding-top: 10px;
+        }
+        .review_text{
+            width: 90px;
+            margin-left: 15px;
+            font-family: $font-text;
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            span{
+                color: $orange;
+            }
+        }
         .go_review{
-            width: 50px;
-            height: 50px;
-            background-color: #fea100;
+            width: 45px;
+            height: 45px;
+            margin-left: 15px;
+            background-color: $orange;
             border-radius: 50%;
             border: double #fff;
         }
+    }
+    .delivery{
+        width: 450px;
+        padding-top: 33px;
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        img{
+            width: 45px;
+            height: 45px;
+            padding-top: 10px;
+        }
+        .delivery_text{
+            width: 140px;
+            margin-left: 15px;
+            font-family: $font-text;
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            span{
+                color: $orange;
+            }
+        }
+        a{
+            font-family: $font-title;
+            font-size: 25px;
+            color: #000;
+            font-weight: 700;
+            padding-left: 20px;
+            border-left: 1px solid #d7dee3;
+        }
+    }   
+}
+.about_inner{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.about_content{
+    max-width: 570px;
+    .about_content_title{
+        font-family: $font-title;
+        color: #000;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    .about_content_text{
+        font-family: $font-text;
+        font-size: 15px;
+        line-height: 22px;
+        color: $colorbg;
+        padding-bottom: 45px;
+    }
+    button{
+        background-color: $orange;
+        border: none;
+        border-radius: 4px;
+        a{
+            color: #fff;
+            font-family: $font-text;
+            font-size: 15px;
+            line-height: 40px;
+            text-transform: uppercase;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+}
+.about_images{
+    width: 570px;
+    display: flex;
+    
+    img{
+        width: 265px;
+        height: 150px;
+        margin-left: 30px;
     }
 }
