@@ -21,7 +21,8 @@ gulp.task('scss', function(){
 });
 
 gulp.task('css', function(){
-    return gulp.src('app/css/libs.css')
+    return gulp.src(['app/css/libs.css',
+                    'node_modules/slick-carousel/slick/slick.css'])
         .pipe(cssnano())
         .pipe(rename({'suffix' : '.min'}))
         .pipe(gulp.dest('app/css'))
@@ -33,8 +34,8 @@ gulp.task('js', function(){
 });
 
 gulp.task('script', function(){
-    return gulp.src(['',
-                    ''])
+    return gulp.src('node_modules/slick-carousel/slick/slick.js'
+                )
             .pipe(concat('libs.min.js'))
             .pipe(uglifyjs())
             .pipe(gulp.dest('app/js'))

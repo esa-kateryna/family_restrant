@@ -241,11 +241,13 @@ header {
   width: 570px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
   .about_images img {
     width: 265px;
     height: 150px;
-    margin-left: 30px; }
+    margin-left: 20px; }
 
 .top-back {
   background-image: url(../img/top-back.jpg);
@@ -268,24 +270,18 @@ header {
     margin-bottom: 28px; }
 
 .slider_item {
-  max-width: 570px; }
+  max-width: 570px;
+  padding-left: 20px;
+  padding-right: 20px; }
   .slider_item img {
-    width: 570px;
+    width: 100%;
     height: 420px; }
   .slider_item .discription-box {
     padding-top: 50px;
     padding-left: 30px;
-    padding-right: 30px; }
-    .slider_item .discription-box .white_box {
-      background-color: white;
-      -webkit-box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.09);
-      box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.09);
-      position: absolute;
-      left: 400px;
-      top: 1441px;
-      width: 569px;
-      height: 730px;
-      z-index: 203; }
+    padding-right: 30px;
+    -webkit-box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.09); }
     .slider_item .discription-box .food_name {
       font-family: "Noto Serif", serif;
       color: #000;
@@ -300,3 +296,76 @@ header {
       line-height: 22px;
       text-align: center;
       margin-bottom: 60px; }
+    .slider_item .discription-box .order-box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding-top: 20px; }
+      .slider_item .discription-box .order-box .order {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding-bottom: 30px; }
+        .slider_item .discription-box .order-box .order .order_text {
+          font-family: "Rubik", sans-serif;
+          font-size: 13px;
+          color: #4c5659;
+          line-height: 30px;
+          font-weight: 700;
+          text-transform: uppercase;
+          padding-right: 10px; }
+        .slider_item .discription-box .order-box .order a {
+          font-family: "Noto Serif", serif;
+          font-size: 26px;
+          color: #000;
+          line-height: 30px;
+          padding-left: 10px;
+          border-left: 1px solid #d7dee3; }
+      .slider_item .discription-box .order-box .price {
+        font-family: "Noto Serif", serif;
+        color: #fea100;
+        font-size: 30px;
+        font-weight: 700; }
+        .slider_item .discription-box .order-box .price span {
+          font-size: 15px; }
+
+.testimonials {
+  background-image: url(../img/testimonials-background.jpg);
+  min-height: 463px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.testimonials-title {
+  text-align: center;
+  padding-top: 80px;
+  color: #fff;
+  font-family: "Noto Serif", serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 75px; }
+
+.testimonials_item {
+  text-align: center; }
+  .testimonials_item .testimonials_item_text {
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: 25px; }
+  .testimonials_item .client_photo {
+    width: 68px;
+    height: 68px;
+    border-radius: 50px;
+    margin-bottom: 15px; }
+  .testimonials_item .client_name {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px; }
