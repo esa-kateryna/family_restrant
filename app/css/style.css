@@ -369,3 +369,79 @@ header {
     color: #fff;
     font-weight: 700;
     margin-bottom: 15px; }
+
+.reservation {
+  background-color: #edf1f3; }
+
+.reservation_title {
+  font-family: "Noto Serif", serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #000;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  text-align: center; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 100px; }
+
+.reservation_content_img {
+  width: 559px;
+  height: 334px;
+  margin-right: 30px; }
+
+.booking-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 40px; }
+
+.booking-form-item {
+  width: 270px;
+  margin-right: 15px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #c7d1d6; }
+  .booking-form-item input {
+    background-color: #edf1f3;
+    border: none;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    line-height: 30px; }
+
+.booking-btn {
+  background-color: #fea100;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  line-height: 50px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+  margin-top: 45px;
+  margin-right: 60px; }
+
+.booking-phone {
+  max-width: 115px;
+  margin-top: 45px;
+  margin-right: 19px;
+  border-right: 1px solid #c7d1d6;
+  padding-right: 10px;
+  font-family: "Rubik", sans-serif;
+  line-height: 18px; }
+  .booking-phone span {
+    color: #fe4c8d; }
+
+.booking-call {
+  margin-top: 45px;
+  line-height: 50px; }
+  .booking-call a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700; }
